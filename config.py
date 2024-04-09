@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("20584104"))
-API_HASH = getenv("f325ee578444d70ad2d02b0673f94d3a")
+API_ID = int(getenv(""))
+API_HASH = getenv("")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("7096864320:AAHiLNCQUmGEznIAFduIRoR6U9zeIFdyFmQ")
+BOT_TOKEN = getenv("")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("mongodb+srv://kurt67143:memo1212@cluster0.nenqo3g.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
+MONGO_DB_URI = getenv("", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("-1002071841734", None))
+LOGGER_ID = int(getenv("", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("7036733368", None))
+OWNER_ID = int(getenv("6335200063", None))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("5e7d0848-f872-4acd-9b30-eba57fd59ef3")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Mehmetbeydiyceksiniz63/mamaklimusic6/tree/master",
+    "",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/mehmetttbio")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/hissizmehmet")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ekselansmalikane")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ekselansmalikane")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/YYenimusic-03-11"
+    "START_IMG_URL", "https://te.legra.ph/Exelans-04-04-2"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/YYenimusic-03-11"
+    "PING_IMG_URL", "https://te.legra.ph/Exelans-04-04-2"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/YYenimusic-03-11"
-STATS_IMG_URL = "https://telegra.ph/YYenimusic-03-11"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/YYenimusic-03-11"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/YYenimusic-03-11"
-STREAM_IMG_URL = "https://telegra.ph/YYenimusic-03-11"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/YYenimusic-03-11"
-YOUTUBE_IMG_URL = "https://telegra.ph/YYenimusic-03-11"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/YYenimusic-03-11"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/YYenimusic-03-11"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/YYenimusic-03-11"
+PLAYLIST_IMG_URL = "https://te.legra.ph/Exelans-04-04-2"
+STATS_IMG_URL = "https://te.legra.ph/Exelans-04-04-2"
+TELEGRAM_AUDIO_URL = "https://te.legra.ph/Exelans-04-04-2"
+TELEGRAM_VIDEO_URL = "https://te.legra.ph/Exelans-04-04-2"
+STREAM_IMG_URL = "https://te.legra.ph/Exelans-04-04-2"
+SOUNCLOUD_IMG_URL = "https://te.legra.ph/Exelans-04-04-2"
+YOUTUBE_IMG_URL = "https://te.legra.ph/Exelans-04-04-2"
+SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/Exelans-04-04-2"
+SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/Exelans-04-04-2"
+SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/Exelans-04-04-2"
 
 
 def time_to_seconds(time):
